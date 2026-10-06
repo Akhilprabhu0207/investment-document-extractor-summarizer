@@ -1,0 +1,16 @@
+[build-system]
+requires=["setuptools>=69"]
+build-backend="setuptools.build_meta"
+[project]
+name="investment-document-extractor-summarizer"
+version="1.0.0"
+description="PDF fund-fact-sheet extraction, validation and optional LLM summarization"
+requires-python=">=3.11"
+dependencies=["pdfplumber==0.11.9"]
+[project.optional-dependencies]
+llm=["openai==1.109.1"]
+test=["pytest==9.0.2", "reportlab==4.4.9"]
+[project.scripts]
+investment-doc="investment_docs.cli:main"
+[tool.pytest.ini_options]
+pythonpath=["src"]
