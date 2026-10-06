@@ -1,0 +1,15 @@
+{
+  "source_file": "sample_fact_sheet.pdf",
+  "fund_name": "Example Global Equity Fund",
+  "strategy": "Long-term global equity growth",
+  "asset_class": "Equity",
+  "management_fee_pct": 0.65,
+  "top_holdings": [
+    {"name": "Example Technology Co", "weight_pct": 5.2},
+    {"name": "Example Financial Group", "weight_pct": 4.1},
+    {"name": "Example Healthcare Inc", "weight_pct": 3.7},
+    {"name": "Example Consumer Brands", "weight_pct": 2.9}
+  ],
+  "raw_text": "Example Global Equity Fund\nFund Name: Example Global Equity Fund\nStrategy: Long-term global equity growth\nAsset Class: Equity\nManagement Fee: 0.65%\nExample Technology Co 5.2%\nExample Financial Group 4.1%\nExample Healthcare Inc 3.7%\nExample Consumer Brands 2.9%",
+  "validation": {"valid": true, "errors": [], "warnings": []}
+}
